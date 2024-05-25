@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tengo un noctulo</title>
+</head>
+<body>
+    <h1>Tengo un nóctulo</h1>
+    <div class="image">
+        <img src="noctulo.jpeg" alt="meruane">
+    </div>
+
+    <div class="description">
+        <p>Tengo… un nóctulo. <br>
+        Un nóctulo… es un murciélago chico que vive en el desván de mi casa hueón. No nos vemos nunca. Los dos trabajamos de noche… ah.
+        <br>
+        </p>
+
+        <p class="ending">
+            Muchas gracias, no se molesten!
+        </p>
+    </div>
+
+    <div class="bmc-button-container">
+        <script 
+            type="text/javascript" 
+            src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" 
+            data-name="bmc-button" 
+            data-slug="diego1997" 
+            data-color="#FFDD00"
+            data-emoji="☕"  
+            data-font="Cookie" 
+            data-text="Buy me a cafecito pls" 
+            data-outline-color="#000000" 
+            data-font-color="#000000" 
+            data-coffee-color="#ffffff">
+        </script>
+    </div>
+
+    
+</body>
+</html>
+
+<style>
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .description {
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .ending {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .bmc-button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    @media screen and (max-width: 768px){
+        body {
+            grid-template-columns: repeat(1, 100%);
+        }
+
+        .image {
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .image > img {
+            width: 100%;
+        }
+    }
+</style>
